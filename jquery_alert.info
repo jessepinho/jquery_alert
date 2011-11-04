@@ -1,0 +1,10 @@
+; $Id$
+name = jQuery Alert
+description = "Use jQuery plugins to display Drupal messages."
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = jquery.sticky/sticky.css
+stylesheets[all][] = jquery_alert.css
+scripts[] = jquery.sticky/sticky.js
+scripts[] = jquery_alert.js

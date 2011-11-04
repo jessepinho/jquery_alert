@@ -1,0 +1,14 @@
+<?php
+// $Id$
+
+/**
+ * Implements hook_init().
+ */
+function jquery_alert_init() {
+  $settings = array(
+    'jqueryAlert' => array(
+      'image_path' => base_path() . drupal_get_path('module', 'jquery_alert') . '/jquery.sticky/close.png',
+    ),
+  );
+  drupal_add_js($settings, 'setting');
+}

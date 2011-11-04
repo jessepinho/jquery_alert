@@ -1,0 +1,6 @@
+div.sticky-queue {
+  left: 20px;
+  right: 20px;
+  width: auto;
+  z-index: 1000;
+}
