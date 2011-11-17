@@ -4,3 +4,14 @@ div.sticky-queue {
   width: auto;
   z-index: 1000;
 }
+
+html.js div.sticky-queue div.messages {
+  display: block;
+}
+
+/**
+ * Hide the normal .messages div when JS is enabled.
+ */
+html.js div.messages {
+  display: none;
+}
